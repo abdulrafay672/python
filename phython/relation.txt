@@ -1,0 +1,58 @@
+1 one to one
+2 one to many
+3 many to many
+
+one to many Rel..
+contry =====> contry
+contry===>sindh=pyunjab=city=divesen=village=uc=people
+
+many to many rel....
+second ki key
+candidate key
+============================task 1==========================
+1
+table one Country  p.k
+country name text
+country  dese text 
+
+2 
+province-id p.k
+country-id  f.k
+province name text
+province desc
+
+3
+divisan=id         p.k
+province-id        f.k
+devision  name   text
+devision des text
+
+4
+distrit-id    p.k
+divisan-id F.k
+distrit- name text
+District desc -text
+
+5
+talukla-id p.k
+distrit-id F.k
+talukla name text
+talukla dese text
+
+6
+Uc-id p.k
+talukla-id F.k
+UC name Text
+UC Dese text
+
+7
+village-id p.k
+uc-id  F.k
+village Name Text
+village desc text
+
+8
+home-id   p.k
+village-id  f.k
+home name
+home desc text]
